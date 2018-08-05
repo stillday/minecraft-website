@@ -1,3 +1,8 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
 .headline {
     height: 100vh;
     background-image: url("../assets/2018-08-05_11.57.55.jpg");

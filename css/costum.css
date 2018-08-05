@@ -70,6 +70,7 @@ html, body {
 }
 
 .starting-material {
+    display: flex;
     height: 500px;
     background-image: url("../assets/2018-08-05_16.34.42.jpg");
     background-position: center;
@@ -115,6 +116,7 @@ html, body {
 }
 
 .server-rules {
+    display: flex;
     height: 500px;
     background-image: url("../assets/2018-08-05_17.07.43.jpg");
     background-position: center;

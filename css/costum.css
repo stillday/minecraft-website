@@ -36,3 +36,26 @@ html, body {
 .communitcaion-inner {
     text-align: center;
 }
+
+.communication-paths {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row;
+    justify-content: center;
+}
+
+.discord {
+    margin: 0 10px;
+}
+
+.discord-inner h4 {
+    text-align: center;
+}
+
+.telegram {
+    margin: 0 10px;
+}
+
+.telegram-inner h4 {
+    text-align: center;
+}

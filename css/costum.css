@@ -128,3 +128,11 @@ html, body {
     margin-left: auto;
     margin-right: auto;
 }
+
+.footer-inner {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row;
+    justify-content: center;
+}

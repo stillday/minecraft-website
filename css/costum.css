@@ -84,3 +84,41 @@ html, body {
     margin-right: auto;
     text-align: center;
 }
+
+.area {
+    height: 500px;
+    background-image: url("../assets/2018-08-05_16.42.19.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.area-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row;
+    justify-content: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.area-claim {
+    max-width: 40%;
+    margin: 0 10px;
+}
+
+.free-zone {
+    max-width: 40%;
+    margin: 0 10px;
+}
+
+.server-rules {
+    height: 500px;
+    background-image: url("../assets/2018-08-05_17.07.43.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

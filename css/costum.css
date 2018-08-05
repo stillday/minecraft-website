@@ -129,10 +129,26 @@ html, body {
     margin-right: auto;
 }
 
+footer {
+    height: 50px;
+}
+
 .footer-inner {
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: row;
     justify-content: center;
+}
+
+.contact {
+    width: 10%;
+}
+
+.impressum {
+    width: 10%;
+}
+
+.copyright p {
+    margin: 0px;
 }

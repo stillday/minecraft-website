@@ -34,7 +34,7 @@ html, body {
 }
 
 .communication {
-    height: 500px;
+    height: 700px;
     background-image: url("../assets/2018-08-05_16.41.54.jpg");
     background-position: center;
     background-attachment: fixed;
@@ -71,7 +71,7 @@ html, body {
 
 .starting-material {
     display: flex;
-    height: 500px;
+    height: 700px;
     background-image: url("../assets/2018-08-05_16.34.42.jpg");
     background-position: center;
     background-attachment: fixed;
@@ -87,7 +87,7 @@ html, body {
 }
 
 .area {
-    height: 500px;
+    height: 700px;
     background-image: url("../assets/2018-08-05_16.42.19.jpg");
     background-position: center;
     background-attachment: fixed;
@@ -117,7 +117,7 @@ html, body {
 
 .server-rules {
     display: flex;
-    height: 500px;
+    height: 700px;
     background-image: url("../assets/2018-08-05_17.07.43.jpg");
     background-position: center;
     background-attachment: fixed;

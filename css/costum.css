@@ -1,8 +1,16 @@
+
+
 html, body {
     padding: 0px;
     margin: 0px;
     background-color: #86ABD8;
+    color: white;
+    /* font-family: 'Hanalei Fill', cursive; */
 }
+
+/* h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bigelow Rules', cursive;
+} */
 
 .headline {
     height: 100vh;

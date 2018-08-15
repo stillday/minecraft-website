@@ -69,3 +69,8 @@
     transition: all 200ms ease-in;
     opacity: 1;
 }
+
+.rotate {
+    transform: rotateY(180deg);
+    /* transition: 300ms; */
+}

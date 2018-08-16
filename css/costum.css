@@ -12,6 +12,11 @@ html, body {
     font-family: 'Bigelow Rules', cursive;
 } */
 
+button {
+    background-color: transparent;
+    box-sizing: unset;
+    border-width: 0px;
+}
 .headline {
     height: 100vh;
     background-image: url("../assets/2018-08-05_11.57.55.jpg");

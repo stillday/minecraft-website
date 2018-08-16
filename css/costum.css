@@ -17,6 +17,11 @@ button {
     box-sizing: unset;
     border-width: 0px;
 }
+
+button:focus {
+    outline: 0;
+}
+
 .headline {
     height: 100vh;
     background-image: url("../assets/2018-08-05_11.57.55.jpg");

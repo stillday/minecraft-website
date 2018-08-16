@@ -1,8 +1,9 @@
 
-function animateClick(URL) {
+function animateClick() {
+    var elmnt = document.getElementById("welcome");
     setTimeout(
         function() {
-            window.location = URL
+            elmnt.scrollIntoView({behavior: 'smooth'});
         }, 500
     );
 }

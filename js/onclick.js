@@ -1,6 +1,6 @@
 
-function animateClick() {
-    var elmnt = document.getElementById("welcome");
+function animateClick(ID) {
+    var elmnt = document.getElementById(ID);
     setTimeout(
         function() {
             elmnt.scrollIntoView({behavior: 'smooth'});

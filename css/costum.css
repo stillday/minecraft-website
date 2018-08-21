@@ -41,11 +41,11 @@ button:focus {
     position: relative;
 }
 
-.nav-icons {
+/* .nav-icons {
     position: absolute;
     top: 50%;
     left: 40%;
-}
+} */
 
 .nav-icons img {
     width: 65px;

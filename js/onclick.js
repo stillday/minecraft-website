@@ -1,11 +1,12 @@
 
-function animateClick(ID) {
+function animateClick(ID, btn) {
     var elmnt = document.getElementById(ID);
-    var todo = this;
-    todo.classList.add("mystyle");
+    var animation = btn;
+    animation.classList.add("rotate");
     setTimeout(
         function() {
             elmnt.scrollIntoView({behavior: 'smooth'});
+            animation.classList.remove("rotate")
         }, 500
     );
 }

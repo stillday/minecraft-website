@@ -1,0 +1,16 @@
+@media screen and (max-width: 1600px) {
+    .server-rules-inner {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .communitcaion-inner {
+        max-width: 80%;
+    }
+    
+    .server-rules {
+        height: 900px;
+    }
+
+}

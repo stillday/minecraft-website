@@ -2,6 +2,13 @@
     cursor: pointer;
     font-size: 17px;
     color: white;
+    text-shadow: 2px 1px 0px rgba(0,0,0, 1);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.shado-btn:hover {
+    color: #0088CC;
+    text-decoration: none;
 }
 
 .shadowbox1,

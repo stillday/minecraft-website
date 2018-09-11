@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="css/animation.css">
         <link rel="stylesheet" href="css/responsiv.css">
         <link rel="stylesheet" href="css/button.css">
+        <link rel="stylesheet" href="css/shadowbox.css">
         <title>Minecraft Gilneas</title>
     </head>
     <body id="page">
@@ -196,12 +197,12 @@
         <footer>
             <div class="footer-inner">
                 <div class="footer-inner-first-line">
-                    <button onclick="shadowbox(contact,this)" id="contact">
+                    <button onclick="shadowbox('contact')" class="shado-btn">
                         Kontakt
                     </button>
-                    <div class="impressum">
-                        <a href="">Impressum</a>
-                    </div>
+                    <button onclick="shadowbox('impressum')" class="shado-btn">
+                        Impressum
+                    </button>
                     <div class="copyright">
                         <p>&copy;2018 stillday-design</p>
                     </div>
@@ -212,6 +213,19 @@
                     </div>
                 </div>
             </div>
+            <div id="contact" class="shadowbox1">
+                <div class="shadowbox1-content">
+                    <span class="close">&times;</span>
+                    <p>Some text in the Modal..1</p>
+                </div>
+            </div>
+            <div id="impressum" class="shadowbox1">
+                <div class="shadowbox1-content">
+                    <span class="close">&times;</span>
+                    <p>Some text in the Modal..2</p>
+                </div>
+            </div>
+
             <script src="js/onclick.js"></script>
             <script src="js/scroll.js"></script>
             <script src="js/shadowbox.js"></script>

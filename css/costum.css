@@ -1,3 +1,27 @@
+
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #86ABD8;
+    color: white;
+    /* font-family: 'Hanalei Fill', cursive; */
+}
+
+/* h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bigelow Rules', cursive;
+} */
+
+button {
+    background-color: transparent;
+    box-sizing: unset;
+    border-width: 0px;
+}
+
+button:focus {
+    outline: 0;
+}
+
 .headline {
     height: 100vh;
     background-image: url("../assets/2018-08-05_11.57.55.jpg");
@@ -5,6 +29,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    display: -webkit-box;
 }
 
 .headline-inner {
@@ -15,3 +40,203 @@
     top: 20%;
     position: relative;
 }
+
+/* .nav-icons {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+} */
+
+.nav-icons img {
+    width: 65px;
+}
+
+.wrapper {
+    /* width: 80%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.welcome-inner {
+    text-align: center;
+}
+
+.communication {
+    height: 700px;
+    background-image: url("../assets/2018-08-05_16.41.54.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.communitcaion-inner {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #00000078;
+    border: 1px solid #000000;
+    box-shadow: 3px 3px #00000078;
+}
+
+.communication-paths {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row;
+    justify-content: center;
+}
+
+.discord {
+    margin: 0 10px;
+}
+
+.discord-inner h4 {
+    text-align: center;
+}
+
+.telegram {
+    margin: 0 10px;
+}
+
+.telegram-inner h4 {
+    text-align: center;
+}
+
+.starting-material {
+    display: flex;
+    height: 700px;
+    background-image: url("../assets/2018-08-05_16.34.42.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.starting-material-inner {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.starting-material-text-inner {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: #00000078;
+    border: 1px solid #000000;
+    box-shadow: 3px 3px #00000078;
+    padding: 0 15px;
+}
+
+.area {
+    height: 700px;
+    background-image: url("../assets/2018-08-05_16.42.19.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.area-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row;
+    justify-content: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: #00000078;
+    border: 1px solid #000000;
+    box-shadow: 3px 3px #00000078;
+}
+
+.area-claim {
+    max-width: 40%;
+    margin: 0 10px;
+}
+
+.free-zone {
+    max-width: 40%;
+    margin: 0 10px;
+}
+
+.server-rules {
+    display: flex;
+    height: 700px;
+    background-image: url("../assets/2018-08-05_17.07.43.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.server-rules-inner {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.server-rules-text-inner {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: #00000078;
+    border: 1px solid #000000;
+    box-shadow: 3px 3px #00000078;
+    padding: 0 15px;
+}
+
+/* footer {
+    height: 50px;
+} */
+
+/* .footer-inner {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row;
+    justify-content: center;
+}
+*/
+.footer-inner-first-line {
+    text-align: center;
+    width: 100%;
+}
+.footer-inner-secend-line {
+    text-align: center;
+    width: 100%;
+}
+/*
+.contact {
+    width: 10%;
+}
+
+.impressum {
+    width: 10%;
+}
+
+.copyright  {
+    width: 20%;
+    margin: 0px; 
+ } */
+
+.copyright p {
+    margin: 0px;
+} 

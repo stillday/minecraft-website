@@ -5,6 +5,6 @@ function loadDoc(ID) {
         document.getElementById(ID).innerHTML = this.responseText;
       }
     };
-    xhttp.open("GET", "./assets/text-files/test.txt", true);
+    xhttp.open("GET", "./assets/text-files/"+ ID + ".txt", true);
     xhttp.send();
   }

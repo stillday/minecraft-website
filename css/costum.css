@@ -203,18 +203,31 @@ button:focus {
     padding: 0 15px;
 }
 
-/* footer {
-    height: 50px;
-} */
-
-/* .footer-inner {
+.paypal-button {
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: row;
     justify-content: center;
 }
-*/
+
+.paypal-headline h2 {
+    font-size: 2.5em;
+}
+
+.paypal-text {
+    font-size: 1.4em;
+}
+
+.paypal-icon {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+footer {
+    background-color: #556d8a;
+}
+
 .footer-inner-first-line {
     text-align: center;
     width: 100%;
@@ -223,19 +236,6 @@ button:focus {
     text-align: center;
     width: 100%;
 }
-/*
-.contact {
-    width: 10%;
-}
-
-.impressum {
-    width: 10%;
-}
-
-.copyright  {
-    width: 20%;
-    margin: 0px; 
- } */
 
 .copyright p {
     margin: 0px;

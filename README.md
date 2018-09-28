@@ -12,3 +12,5 @@ Folden wurde und soll umgesetzt werden
 * Responsiv Desing
 
 Weiter Themen werden folgen.
+
+Die Webseite ist über gilneas.at erreichbar.

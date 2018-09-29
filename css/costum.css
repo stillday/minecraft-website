@@ -227,7 +227,7 @@ button:focus {
     /* flex-direction: row;
     flex-wrap: row;
     justify-content: center; */
-    background-image: url("../assets/photo_2018-09-21_20-34-05.jpg");
+    background-image: url("../assets/Biom.jpg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -251,6 +251,7 @@ button:focus {
 
 footer {
     background-color: #556d8a;
+    height: 100%;
 }
 
 .footer-inner-first-line {

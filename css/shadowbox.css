@@ -60,3 +60,10 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+.impressum-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}

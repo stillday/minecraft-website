@@ -43,7 +43,24 @@ h1, h2, h3, h4, h5, h6 {
 .starting-material-text-inner p,
 .area-claim-inner p,
 .free-zone-inner p,
-.list-style {
+.list-style,
+.paypal-text,
+.minecraft-pack-text {
     font-size: 1.4em;
 }
 
+.paypal-headline h2,
+.minecraft-pack-headline h2,
+.minecraft-pack-text h2,
+.minecraft-pack-text h3{
+    font-size: 2.5em;
+}
+
+.paypal-text {
+    font-size: 1.4em;
+}
+
+.paypal-icon {
+    text-align: center;
+    font-size: 2.5em;
+}

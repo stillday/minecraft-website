@@ -211,21 +211,47 @@ button:focus {
     justify-content: center;
 }
 
-.paypal-headline h2 {
-    font-size: 2.5em;
+.paypal-button-inner {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.paypal-text {
-    font-size: 1.4em;
+.paypal-button-text-inner {
+    padding: 0 15px;
 }
 
-.paypal-icon {
-    text-align: center;
-    font-size: 2.5em;
+.minecraft-pack {
+    width: 100%;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: row;
+    justify-content: center; */
+    background-image: url("../assets/Biom.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.minecraft-pack-inner {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #00000078;
+    border: 1px solid #000000;
+    box-shadow: 3px 3px #00000078;
+    padding: 0 15px;
+    margin: 50px auto;
+}
+
+.minecraft-pack-text-inner {
+    padding: 0 15px;
 }
 
 footer {
     background-color: #556d8a;
+    height: 100%;
 }
 
 .footer-inner-first-line {

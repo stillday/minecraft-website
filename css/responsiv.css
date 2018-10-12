@@ -14,3 +14,12 @@
     }
 
 }
+
+@media screen and (max-device-width: 600px) {
+    .nav-icons-img {
+        padding: 20px 20px;
+    }
+    .nav-icons img {
+        width: 100px;
+    }
+}

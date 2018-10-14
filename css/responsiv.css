@@ -16,10 +16,68 @@
 }
 
 @media screen and (max-device-width: 600px) {
-    .nav-icons-img {
+    /* .nav-icons-img {
         padding: 20px 20px;
     }
     .nav-icons img {
         width: 100px;
+    } */
+
+    .headline-inner {
+        width: auto;
+        top: 0%;
+    }
+
+    .communication {
+        height: auto;
+    }
+    .communitcaion-inner {
+        max-width: 100%;
+        display: block;
+    }
+    .app-icons {
+        font-size: 2em;
+        padding: 0 10px;
+    }
+    .communication-paths {
+        display: block;
+    }
+
+    .starting-material {
+        height: auto;
+        padding: 60px 0;
+    }
+
+    .starting-material-inner {
+        max-width: 100%;
+    }
+
+    .area {
+        height: auto;
+    }
+
+    .area-inner {
+        max-width: 100%;
+        display: block;
+    }
+    .area-claim {
+        max-width: 100%;
+    }
+
+    .free-zone {
+        max-width: 100%;
+    }
+
+    .server-rules {
+        height: auto;
+        padding: 60px 0;
+    }
+
+    .server-rules-inner {
+        max-width: 100%;
+    }
+
+    .minecraft-pack-inner {
+        max-width: 100%;
     }
 }

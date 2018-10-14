@@ -5,12 +5,7 @@ html, body {
     margin: 0px;
     background-color: #86ABD8;
     color: white;
-    /* font-family: 'Hanalei Fill', cursive; */
 }
-
-/* h1, h2, h3, h4, h5, h6 {
-    font-family: 'Bigelow Rules', cursive;
-} */
 
 button {
     background-color: transparent;
@@ -37,32 +32,27 @@ button:focus {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    top: 20%;
+    margin-top: 20%;
     position: relative;
 }
-
-/* .nav-icons {
-    position: absolute;
-    top: 50%;
-    left: 40%;
-} */
 
 .nav-icons img {
     width: 65px;
 }
 
-.wrapper {
-    /* width: 80%; */
+/* .wrapper {
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 .welcome-inner {
     text-align: center;
+    display: block;
+    margin: 0 auto;
 }
 
 .communication {
-    height: 700px;
+    padding: 60px 0;
     background-image: url("../assets/2018-08-05_16.41.54.jpg");
     background-position: center;
     background-attachment: fixed;
@@ -73,13 +63,9 @@ button:focus {
 .communitcaion-inner {
     text-align: center;
     position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    display: block;
+    margin: 0 auto;
     max-width: 60%;
-    margin-left: auto;
-    margin-right: auto;
     background: #00000078;
     border: 1px solid #000000;
     box-shadow: 3px 3px #00000078;
@@ -139,7 +125,7 @@ button:focus {
 }
 
 .area {
-    height: 700px;
+    padding: 60px 0;
     background-image: url("../assets/2018-08-05_16.42.19.jpg");
     background-position: center;
     background-attachment: fixed;
@@ -153,13 +139,8 @@ button:focus {
     flex-wrap: row;
     justify-content: center;
     max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
     position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    margin: 0 auto;
     background: #00000078;
     border: 1px solid #000000;
     box-shadow: 3px 3px #00000078;
@@ -235,7 +216,7 @@ button:focus {
 }
 
 .minecraft-pack-inner {
-    width: 80%;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     background: #00000078;

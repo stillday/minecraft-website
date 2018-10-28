@@ -25,6 +25,52 @@
 }
 
 @media screen and (max-device-width: 600px) {
+    .server-name, 
+    .welcome-inner p, 
+    .communication-info p, 
+    .telegram-inner p, 
+    .starting-material-text-inner p, 
+    .area-claim-inner p, 
+    .free-zone-inner p, 
+    .list-style, 
+    .paypal-text, 
+    .minecraft-pack-text{
+        font-size: 1.2em;
+    }
+
+    h1,
+    .headline-inner h1,
+    .welcome-inner h1 {
+        font-size: 2.5em;
+    }
+
+    .rules-headline h2,
+    .paypal-headline h2, 
+    .minecraft-pack-headline h2, 
+    .minecraft-pack-text h2, 
+    .minecraft-pack-text h3 {
+        font-size: 2em;
+    }
+
+    h3,
+    .headline-inner h3,
+    .communication-info h3, 
+    .starting-material-text-inner h3, 
+    .area-claim-inner h3, 
+    .free-zone-inner h3 {
+        font-size: 1.8em;
+    }
+
+    .discord-inner h4, 
+    .telegram-inner h4 {
+        font-size: 1.5em;
+    }
+
+    ul {
+        padding-left: 1em;
+    }
+
+
     .nav-icons-img {
         padding: 20px 20px;
     }

@@ -138,7 +138,7 @@ button:focus {
     flex-direction: row;
     flex-wrap: row;
     justify-content: center;
-    max-width: 80%;
+    max-width: 60%;
     position: relative;
     margin: 0 auto;
     background: #00000078;
@@ -167,7 +167,7 @@ button:focus {
 }
 
 .server-rules-inner {
-    max-width: 50%;
+    max-width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -193,9 +193,10 @@ button:focus {
 }
 
 .paypal-button-inner {
-    width: 80%;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .paypal-button-text-inner {

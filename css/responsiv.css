@@ -1,27 +1,88 @@
-@media screen and (max-width: 1600px) {
+/* @media screen and (max-width: 1600px) {
     .server-rules-inner {
         max-width: 80%;
     }
-}
+} */
 
 @media screen and (max-width: 1440px) {
     .communitcaion-inner {
         max-width: 80%;
     }
+
+    .area-inner { 
+        max-width: 80%;
+    }
     
     .server-rules {
-        height: 900px;
+        height: auto;
+        padding: 60px 0;
+    }
+
+    .server-rules-inner {
+        max-width: 80%;
     }
 
 }
 
 @media screen and (max-device-width: 600px) {
-    /* .nav-icons-img {
+    .server-name, 
+    .welcome-inner p, 
+    .communication-info p, 
+    .telegram-inner p, 
+    .starting-material-text-inner p, 
+    .area-claim-inner p, 
+    .free-zone-inner p, 
+    .list-style, 
+    .paypal-text, 
+    .minecraft-pack-text{
+        font-size: 1.2em;
+    }
+
+    h1,
+    .headline-inner h1,
+    .welcome-inner h1 {
+        font-size: 2.5em;
+    }
+
+    .rules-headline h2,
+    .paypal-headline h2, 
+    .minecraft-pack-headline h2, 
+    .minecraft-pack-text h2, 
+    .minecraft-pack-text h3 {
+        font-size: 2em;
+    }
+
+    h3,
+    .headline-inner h3,
+    .communication-info h3, 
+    .starting-material-text-inner h3, 
+    .area-claim-inner h3, 
+    .free-zone-inner h3 {
+        font-size: 1.8em;
+    }
+
+    .discord-inner h4, 
+    .telegram-inner h4 {
+        font-size: 1.5em;
+    }
+
+    ul {
+        padding-left: 1em;
+    }
+
+
+    .nav-icons-img {
         padding: 20px 20px;
     }
+
+    /*
     .nav-icons img {
         width: 100px;
     } */
+
+    .headline {
+        height: auto;
+    }
 
     .headline-inner {
         width: auto;
@@ -79,5 +140,32 @@
 
     .minecraft-pack-inner {
         max-width: 100%;
+    }
+}
+
+@media screen and (max-device-width: 350px){
+
+    .nav-icons-img {
+        padding: 10px 30px;
+    }
+
+    .discord {
+        margin: 0;
+    }
+
+    .app-icons a i{
+        padding: 0 30px;
+    }
+
+    .server-rules-text-inner {
+        padding: 0px;
+    }
+    .paypal-button-inner {
+        width: 100%;
+        text-align: center;
+    }
+
+    .minecraft-pack-inner {
+        padding: 0;
     }
 }

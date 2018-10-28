@@ -60,3 +60,22 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+.impressum-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-inner .contact-formular form label {
+    display: block;
+    margin: 10px 0;
+}
+
+.contact-inner .contact-formular form input[type="text"] {
+    background-color: #0088cc73;
+    color: #000;
+    padding: 10px;
+    border: 0;
+}
